@@ -12,6 +12,7 @@ int main()
 	double fps = cap.get(CAP_PROP_FPS);
 	std::cout << "fps" << fps << std::endl;
 	
+
 	while (1)
 	{
 		cv::Mat frame;
